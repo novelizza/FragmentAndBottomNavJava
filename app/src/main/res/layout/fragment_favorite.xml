@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FavoriteFragment"
+    android:orientation="vertical"
+    android:layout_margin="60dp">
+
+    <!--kode untuk menampilkan nama-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvNamaFavorite"
+        android:text="Nama"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/teksBiasa"/>
+
+    <!--kode untuk menampilkan teks activity kedua-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ini merupakan Activity kedua ya..."
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/teksBiasa"/>
+
+</LinearLayout>

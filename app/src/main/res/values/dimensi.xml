@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--kode untuk membuat source dimensi ukuran teks-->
+    <dimen name="teksBiasa">17sp</dimen>
+    <dimen name="teksJudul">30sp</dimen>
+</resources>
